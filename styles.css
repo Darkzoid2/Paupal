@@ -1,0 +1,129 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #FFFFFF; /* PayPal blue */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+header img {
+    width: 150px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.balance {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.balance h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.balance #balance-amount {
+    font-size: 48px;
+    color: #000000; /* PayPal blue */
+}
+
+.form {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+}
+
+input[type="number"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0070ba; /* PayPal blue */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005a9e; /* Slightly darker blue on hover */
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #0070ba; /* PayPal blue */
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.popup-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.popup-content {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Popup styles */
+
+/* ... Remaining CSS code ... */
+
+/* ... Previous CSS code ... */
+
+/* ... Previous CSS code ... */
+
+/* Footer styles */
+footer {
+    text-align: center;
+    background-color: #0070ba; /* PayPal blue */
+    color: white;
+    padding: 10px 0;
+    border-radius: 0 0 5px 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
